@@ -1,0 +1,23 @@
+*{
+    background-color: aquamarine;
+}
+.img{
+    height: 50%;
+    border-radius: 5%;
+    object-fit: cover;
+    border-width: 10px;
+    border-color: pink;
+    border-style: solid;
+}
+
+.pwebsite{
+    display: flex;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.pwebsiteresume{
+    padding: 15px;
+    color: yellow;
+    background-color: blanchedalmond;
+}
