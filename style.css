@@ -21,3 +21,20 @@
     color: yellow;
     background-color: blanchedalmond;
 }
+
+
+/* 
+
+this was also what i got from Jasmine. This breaks up the site into dividors, to put stuff where you want
+look up the site cssgridgenerator to get this made for you lol
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; } */
