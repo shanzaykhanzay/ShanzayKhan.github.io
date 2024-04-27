@@ -1,4 +1,106 @@
-*{
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   position: relative;
+}
+
+section {
+   margin: 50px auto;
+   width: 80%;
+   text-align: center;
+}
+
+.content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#typed-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 50px;
+}
+
+@keyframes scroll {
+   0% { transform: translateX(100%); }
+   100% { transform: translateX(-100%); }
+}
+
+.scrolling-text {
+   position: absolute;
+   top: 0;
+   width: 100%;
+   white-space: nowrap;
+   overflow: hidden;
+   animation: scroll 12s linear infinite;
+   /* animation-delay: 5; */
+}
+
+#resume a {
+   color: blue;
+   text-decoration: none;
+}
+
+h1 {
+   font-size: 2em; 
+   line-height: 2em; 
+}
+
+.typed-cursor {
+   display: inline-block;
+   font-size: 2em;
+}
+
+
+
+
+/* header {
+    text-align: center; 
+    padding: 20px;
+ } */
+ /*navigation menu style*/
+ /* nav {
+    text-align: center;
+    word-spacing: 30px;
+    padding: 10px;
+ } */
+ /*creating the two-column layout*/
+ /* *{
+    box-sizing: border-box;
+ }
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+ }
+ .post-text-box {
+    flex: 70%;
+    padding: 20px;
+    order: 2;
+ }
+ .profile {
+    flex: 30%;
+    padding: 20px;
+    order: 1;
+ } */
+ /*profile image and heading style*/
+ /* .profile img {
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .profile h1 {
+    text-align: center;
+ } */
+
+ /* *{
     background-color: aquamarine;
 }
 .img{
@@ -20,21 +122,5 @@
     padding: 15px;
     color: yellow;
     background-color: blanchedalmond;
-}
+} */
 
-
-/* 
-
-this was also what i got from Jasmine. This breaks up the site into dividors, to put stuff where you want
-look up the site cssgridgenerator to get this made for you lol
-
-.parent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
-    
-    .div1 { grid-area: 1 / 1 / 2 / 2; }
-    .div2 { grid-area: 1 / 2 / 2 / 3; } */
